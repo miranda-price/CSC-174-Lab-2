@@ -1,0 +1,66 @@
+
+/*HEADER*/
+.banner {
+    text-align: left;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+}
+
+.banner a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    margin: 0;
+}
+h1 {
+    font-size: 21pt;
+    margin: 0;
+    padding: 4px;
+}
+
+#menu ul {
+        
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin: 5px 10px;
+    justify-content: right;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+#menu li {
+    padding: 8px 0;
+    list-style-type: none;
+    margin: 0 auto
+}
+
+#menu a {
+    
+    padding: 2px;
+    margin: 0 10px;
+    font-weight: 400;
+    font-size: 12pt;
+}
+
+section p {
+    font-size: 14pt;
+}
+
+figure {
+
+    float: right;
+}
+
+/*CONTAINER*/
+.container {
+    max-width: 1000px;
+    padding: 10px 30px;
+    margin: 20px 15%;
+    background-color: rgba(255, 255, 255, 0.897);
+}

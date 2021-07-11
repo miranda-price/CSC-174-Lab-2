@@ -1,0 +1,64 @@
+html {
+
+    height: 100%;
+}
+
+body {
+
+    background-image: url(../images/phoenix.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100%;
+}
+
+/* FONT STYLES*/
+
+@font-face {
+    font-family: TitleFont;
+    src: url(ShadowsIntoLight-Regular.ttf);
+}
+
+@font-face {
+    font-family: BodyFont;
+    src: url(MPLUSRounded1c-Regular.ttf);
+}
+
+h1, h2, h3 {
+
+    font-family: TitleFont
+}
+
+h2 {
+    font-size: 30pt;
+    text-align: center;
+}
+
+p, nav, footer {
+
+    font-family: BodyFont;
+    line-height: 1.7em;
+}
+
+#menu a:hover {
+
+    color: rgb(126, 122, 102);
+}
+
+a.is-current {
+
+    border-bottom: solid 2px white;
+    border-top: solid 2px white;
+}
+
+/* FOOTER */
+footer {
+    padding: 7px;
+    color: white;
+    background-color: black;
+}
+
+
+
